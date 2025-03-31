@@ -1,0 +1,29 @@
+.card {
+    background-color: var(--mantine-color-white);
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--mantine-shadow-md);
+  }
+  
+  .image {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  
+  .image:hover {
+    opacity: 0.9;
+  }
+  
+  .section {
+    padding: var(--mantine-spacing-md);
+    border-bottom: 1px solid var(--mantine-color-gray-3);
+  }
+  
+  .actions {
+    padding: 0 var(--mantine-spacing-md) var(--mantine-spacing-md);
+  }

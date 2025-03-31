@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Ignore .env in the root directory
+.env
+
+# Ignore .env in the /backend directory
+/backend/.env
+
 # dependencies
 /node_modules
 /.pnp

@@ -1,0 +1,49 @@
+.album-gallery-container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.gallery-title {
+    color: #228be6;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.search-input {
+    max-width: 500px;
+    margin: 0 auto 30px;
+}
+
+.album-card {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.album-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.album-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 4px 4px;
+}
+
+.album-modal-content {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+    
+    .search-input {
+        margin-bottom: 20px;
+    }
+}
